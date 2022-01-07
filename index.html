@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bai tap</title>
+    <meta charset="utf-8">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: tahoma;
+            font-size: 16px;
+            background-color: yellow;
+        }
+        #menu{
+            width: 1300px;
+            height: 50px;
+            background-color: white;
+            margin: 50px auto;
+        }
+        ul.root > li{
+            list-style: none;
+            float: left;
+        }
+        ul.root > li > a{
+            text-decoration: none;
+            color: rgb(37, 15, 15);
+            display: block;
+            padding:0px 30px;
+            line-height: 50px;
+        }
+        ul.root > li > a:hover{
+            color: lime;
+        }
+        ul.sub{
+            text-decoration: none;
+            background-color: yellow;
+            display: none;
+        }
+        ul.sub li{
+            background-color: white;
+            list-style: none;
+        }
+        ul.sub li a{
+            display: block;
+            text-decoration: none;
+        }
+        ul.sub li a:hover{
+            background-color: red;
+            color: black;
+        }
+        ul.root > li:hover > ul.sub{
+            display: block;
+        }
+        li.yes{
+            background-color: white;
+        }
+    </style>
+
+<body>
+  <div id="menu"><b>
+    <ul class="root">
+        <li><a href="">Trang chủ</a></li>
+        <li><a href="">Teky's young talent</a></li>    
+        <li><a href="">Khóa học</a>
+            <ul class="sub">
+                <li style="background-color: cyan;"><a href="" style="color: white;">TOÀN BỘ KHÓA HỌC</a></li>
+                <li><a href="">Lập trình & Phát triển ứng dụng</a></li>
+                <hr>
+                <li><a href="">Robot & Điện tử tự động</a></li>
+                <hr>
+                <li><a href="">3D & Truyền thông đa phương tiện</a></li>
+                <hr>
+                <li><a href="">Khóa học online</a></li>
+            </ul></li>
+        <li><a href="">Học online</a></li>
+        <li><a href="">Tài liệu miễn phí</a>
+            <ul class="sub">
+                <li><a href="">Tặng miễn phí Template powerpoint</a></li>
+                <hr>
+                <li><a href="">Tặng sách lập trình Scratch Jr</a></li>
+                <hr>
+                <li><a href="">Tặng sách lập trình python</a></li>
+            </ul></li>
+        <li><a href="">Giáo viên</a></li>
+        <li><a href="">Về teky</a>
+            <ul class="sub">
+                <li><a href="">Về chúng tôi</a></li>
+                <hr>
+                <li><a href="">Đội ngũ</a></li>
+                <hr>
+                <li><a href="">Giải thưởng</a></li>
+                <hr>
+                <li><a href="">Thành tích học sinh</a></li>
+                <hr>
+                <li><a href="">Báo chí</a></li>
+                <hr>
+                <li><a href="">Tuyển dụng</a></li>
+                <hr>
+                <li><a href="">Blog</a></li>
+                <hr>
+                <li><a href="">Liên hệ</a></li>
+                <hr>
+                <li><a href="">Hợp tác</a></li>
+            </ul></li>
+    </ul></b>
+</div>
+</body>
